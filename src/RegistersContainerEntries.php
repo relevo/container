@@ -5,5 +5,10 @@ namespace Relevo\Container;
 
 interface RegistersContainerEntries
 {
+    /**
+     * Register container entries.
+     *
+     * @param ContainerBuilder $container
+     */
     public function registerContainerEntries(ContainerBuilder $container);
 }
