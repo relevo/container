@@ -6,7 +6,7 @@ namespace Relevo\Container;
 interface ContainerEntryProvider
 {
     /**
-     * Add entries to container.
+     * Add entries to the given container.
      *
      * @param Container $container
      */
