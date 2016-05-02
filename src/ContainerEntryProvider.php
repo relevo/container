@@ -3,7 +3,7 @@ declare(strict_types = 1);
 
 namespace Relevo\Container;
 
-interface AddsContainerEntries
+interface ContainerEntryProvider
 {
     /**
      * Add entries to container.
