@@ -6,7 +6,7 @@ namespace Relevo\Container;
 interface RegistersContainerEntries
 {
     /**
-     * Register container entries.
+     * Add entries to the container.
      *
      * @param ContainerBuilder $container
      */
