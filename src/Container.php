@@ -6,10 +6,19 @@ namespace Relevo\Container;
 interface Container
 {
     /**
+     * Get entry.
+     *
+     * @param string $name
+     *
+     * @return mixed
+     */
+    public function get(string $name);
+
+    /**
      * Add entry.
      *
      * @param string $name
      * @param mixed $value
      */
-    public function register(string $name, $value);
+    public function set(string $name, $value);
 }
