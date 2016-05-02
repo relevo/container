@@ -3,13 +3,13 @@ declare(strict_types = 1);
 
 namespace Relevo\Container;
 
-interface ContainerBuilder
+interface Container
 {
     /**
-     * Register entry into the container.
+     * Add entry.
      *
      * @param string $name
      * @param mixed $value
      */
-    public function set(string $name, $value);
+    public function register(string $name, $value);
 }
