@@ -6,9 +6,11 @@ namespace Relevo\Container;
 interface ServiceProvider
 {
     /**
-     * Register services into the given container.
+     * Add services to the given collection.
      *
-     * @param Container $container
+     * @param ServiceCollection $services
+     *
+     * @return ServiceCollection
      */
-    public function registerServices(Container $container);
+    public function addServices(ServiceCollection $services) : ServiceCollection;
 }
